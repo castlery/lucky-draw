@@ -4234,7 +4234,7 @@ Copyright (c) 2013 Daniel Eden
 
 body {
   font-family: 'PT Sans', helvetica, Arial, verdana, sans-serif;
-  background: #f34433 url("../images/bg_stars.svg") no-repeat top left;
+  background: #d74448;
   font-size: 18px;
   line-height: 1;
   margin: 0;
@@ -4415,11 +4415,8 @@ input[type="checkbox"] {
   margin: 10px 0 0 20px;
   -vendor-animation-duration: .5s;
   -vendor-animation-delay: 1s;
-  -vendor-animation-iteration-count: infinite;
-  width: 224px;
-  height: 91px; }
+  -vendor-animation-iteration-count: infinite; }
   .logo img {
-    width: 205px;
     height: 83px; }
   .logo :hover {
     cursor: pointer; }
@@ -4440,21 +4437,21 @@ input[type="checkbox"] {
   width: 100%; }
 
 #mask-top {
-  background: -moz-linear-gradient(top, rgba(243, 68, 51, 0.95) 90%, rgba(243, 68, 51, 0) 100%);
+  background: -moz-linear-gradient(top, rgba(215, 68, 72, 0.7) 90%, rgba(215, 68, 72, 0) 100%);
   /* FF3.6+ */
-  background: -webkit-linear-gradient(top, rgba(243, 68, 51, 0.95) 90%, rgba(243, 68, 51, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(215, 68, 72, 0.7) 90%, rgba(215, 68, 72, 0) 100%);
   /* Chrome10+,Safari5.1+ */
-  background: linear-gradient(to bottom, rgba(243, 68, 51, 0.95) 90%, rgba(243, 68, 51, 0) 100%);
+  background: linear-gradient(to bottom, rgba(215, 68, 72, 0.7) 90%, rgba(215, 68, 72, 0) 100%);
   /* W3C */
   top: 0;
   left: 0; }
 
 #mask-bottom {
-  background: -moz-linear-gradient(top, rgba(243, 68, 51, 0) 0%, rgba(243, 68, 51, 0.95) 15%);
+  background: -moz-linear-gradient(top, rgba(215, 68, 72, 0) 0%, rgba(215, 68, 72, 0.7) 15%);
   /* FF3.6+ */
-  background: -webkit-linear-gradient(top, rgba(243, 68, 51, 0) 0%, rgba(243, 68, 51, 0.95) 15%);
+  background: -webkit-linear-gradient(top, rgba(215, 68, 72, 0) 0%, rgba(215, 68, 72, 0.7) 15%);
   /* Chrome10+,Safari5.1+ */
-  background: linear-gradient(to bottom, rgba(243, 68, 51, 0) 0%, rgba(243, 68, 51, 0.95) 15%);
+  background: linear-gradient(to bottom, rgba(215, 68, 72, 0) 0%, rgba(215, 68, 72, 0.7) 15%);
   /* W3C */
   height: 100px;
   top: 0;
@@ -4475,5 +4472,3 @@ input[type="checkbox"] {
 
   .btn-start {
     margin-left: 30px; } }
-
-/*# sourceMappingURL=style.css.map */

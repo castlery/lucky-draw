@@ -6,7 +6,9 @@
 
 //Variables
   //Background
-$page-background-color: #f34433;
+$page-background-color: #d74448;
+$page-background-mask: rgba(215, 68, 72, 0.7);
+$page-background-mask-end: rgba(215, 68, 72, 0);
 $tooltip-background-color: #602a25;
 $primary-btn-background: #a33024;
 $primary-btn-hover-background: #602a25;
@@ -19,7 +21,7 @@ $form-input-color: #333333;
 $primary-radius: 4px;
 body{
   font-family: 'PT Sans', helvetica, Arial, verdana, sans-serif;
-  background: $page-background-color url('../images/bg_stars.svg') no-repeat top left;
+  background: $page-background-color;
   font-size: 18px;
   line-height: 1;
   margin:0;
@@ -245,10 +247,7 @@ input[type="checkbox"]{
   -vendor-animation-duration: .5s;
   -vendor-animation-delay: 1s;
   -vendor-animation-iteration-count: infinite;
-  width: 224px;
-  height: 91px;
   img{
-    width: 205px;
     height: 83px;
   }
   :hover{
@@ -276,16 +275,16 @@ input[type="checkbox"]{
   width: 100%;
 }
 #mask-top{
-  background: -moz-linear-gradient(top, rgba(243,68,51,0.95) 90%, rgba(243,68,51,0) 100%); /* FF3.6+ */
-  background: -webkit-linear-gradient(top, rgba(243,68,51,0.95) 90%,rgba(243,68,51,0) 100%); /* Chrome10+,Safari5.1+ */
-  background: linear-gradient(to bottom, rgba(243,68,51,0.95) 90%,rgba(243,68,51,0) 100%); /* W3C */
+  background: -moz-linear-gradient(top, $page-background-mask 90%, $page-background-mask-end 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(top, $page-background-mask 90%, $page-background-mask-end 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, $page-background-mask 90%, $page-background-mask-end 100%); /* W3C */
   top:0;
   left:0;
 }
 #mask-bottom{
-  background: -moz-linear-gradient(top, rgba(243,68,51,0) 0%, rgba(243,68,51,0.95) 15%); /* FF3.6+ */
-  background: -webkit-linear-gradient(top, rgba(243,68,51,0) 0%,rgba(243,68,51,0.95) 15%); /* Chrome10+,Safari5.1+ */
-  background: linear-gradient(to bottom, rgba(243,68,51,0) 0%, rgba(243,68,51,0.95) 15%); /* W3C */
+  background: -moz-linear-gradient(top, $page-background-mask-end 0%, $page-background-mask 15%); /* FF3.6+ */
+  background: -webkit-linear-gradient(top, $page-background-mask-end 0%, $page-background-mask 15%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, $page-background-mask-end 0%, $page-background-mask 15%); /* W3C */
   height: 100px;
   top:0;
   left:0;
