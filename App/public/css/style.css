@@ -4315,8 +4315,7 @@ ul, ol {
   -webkit-animation-name: x-spin;
   -webkit-animation-duration: 2s; }
   .rolling-list li {
-    /*line-height: 0.78;*/
-    line-height: 123px;
+    line-height: 0.78;
     font-weight: bold;
     -webkit-animation-name: y-spin;
     -webkit-animation-duration: 3s; }
