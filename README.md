@@ -27,3 +27,16 @@ Demo on Vimeo: [Watch](https://vimeo.com/103432954)
 4. Open your browser and visit <code>http://localhost:3000</code>
 
 Good luck :D
+
+# How to develop
+
+    # install the scss gem if haven't
+    gem install scss
+
+    # live compile
+    scss --watch ./public/scss/style.scss:./public/css/style.cs
+
+# How to run
+    
+    # In the App folder
+    npm start

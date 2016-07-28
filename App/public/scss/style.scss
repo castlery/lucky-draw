@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+//@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import "normalize";
 @import "col";
 @import "animate.min";
@@ -6,9 +6,14 @@
 
 //Variables
   //Background
-$page-background-color: #d74448;
-$page-background-mask: rgba(215, 68, 72, 0.7);
-$page-background-mask-end: rgba(215, 68, 72, 0);
+// $page-background-color: #d74448;
+$page-background-image: url('/images/LuckyDraw.png');
+
+// $page-background-mask: rgba(215, 68, 72, 0.7);
+// $page-background-mask-end: rgba(215, 68, 72, 0);
+$page-background-mask: rgba(40, 84, 0, 0.7);
+$page-background-mask-end: rgba(40, 84, 0, 0);
+
 $tooltip-background-color: #602a25;
 $primary-btn-background: #a33024;
 $primary-btn-hover-background: #602a25;
@@ -21,7 +26,7 @@ $form-input-color: #333333;
 $primary-radius: 4px;
 body{
   font-family: 'PT Sans', helvetica, Arial, verdana, sans-serif;
-  background: $page-background-color;
+  background: $page-background-image;
   font-size: 18px;
   line-height: 1;
   margin:0;
@@ -123,6 +128,8 @@ ul, ol{
     font-weight: bold;
     -webkit-animation-name: y-spin;
     -webkit-animation-duration: 3s;
+    white-space:nowrap;
+    overflow: hidden;
   }
 }
 //Form

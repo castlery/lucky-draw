@@ -3,10 +3,8 @@
     var Machine = function(resultUpdateHandler) {
         var updateResult = resultUpdateHandler,
             updateCandidates = function() {
-
             },
             updateIsWithoutReplacement = function() {
-
             };
 
         var socket = io.connect();

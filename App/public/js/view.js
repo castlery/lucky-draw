@@ -14,6 +14,10 @@
         var $items = $('.item-list li').clone().each(function(i, v){
             itemsArr[i] = $('<li>').append($(v).text());
         });
+
+        var stopping = false;
+        var delay = 60;
+
         function loopAndLoop(counter) {
             // this is not animation...
             var $rolling = $('ul.rolling-list');
@@ -23,7 +27,6 @@
                 $rolling.append(newItemsOrder[i]);
             }
 
-            var nextTime = 100;
             var winHeight = $(window).height();
             $('.rolling-list').css({
                                        'height': winHeight-60,
@@ -37,8 +40,8 @@
                                'height': winHeight/2.6
                            });
 
-            if (counter > $items.length) {
-
+            if (stopping) {
+            //if (counter > $items.length) {
                 if ($($items.get((counter) % $items.length)).prop('id') == poorMan) {
 
                     $('#winner-span').text(poorMan);
@@ -50,18 +53,22 @@
                     }, 1000);
                     return;
                 } else if ($($items.get((counter+1) % $items.length)).prop('id') == poorMan) {
-                    nextTime = 800;
+                    delay = 800;
                 } else if ($($items.get((counter+2) % $items.length)).prop('id') == poorMan) {
-                    nextTime = 500;
+                    delay = 500;
                 } else if ($($items.get((counter+3) % $items.length)).prop('id') == poorMan) {
-                    nextTime = 300;
+                    delay = 300;
                 }
             }
-            if (counter < $items.length * 2) {
 
-                setTimeout(function() {
-                    loopAndLoop(++counter);
-                }, nextTime);
+            setTimeout(function() {
+                loopAndLoop(++counter);
+            }, delay);
+
+            // Slow down incrementally
+            if(counter > 20) delay += 2;
+            if(counter > 40) {
+              stopping = true;
             }
         }
         loopAndLoop(0);
