@@ -4234,6 +4234,7 @@ Copyright (c) 2013 Daniel Eden
 body {
   font-family: 'PT Sans', helvetica, Arial, verdana, sans-serif;
   background: url("/images/LuckyDraw.png");
+  background-size: cover;
   font-size: 18px;
   line-height: 1;
   margin: 0;

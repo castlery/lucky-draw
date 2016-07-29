@@ -50,7 +50,7 @@
       var winHeight = $(window).height();
       $('.rolling-list').css({
         'height': winHeight-60,
-        'width': winHeight
+        //'width': winHeight
       });
 
       $('.rolling-list li').css({
