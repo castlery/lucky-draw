@@ -4239,7 +4239,7 @@ body {
   line-height: 1;
   margin: 0;
   padding: 0;
-  color: #fae5e5;
+  color: #BA9542;
   overflow-x: hidden; }
 
 .wrapper {
@@ -4259,11 +4259,11 @@ h2 {
   margin: 20px 0 0 0; }
 
 a {
-  color: #a33024;
+  color: #BA9542;
   text-decoration: none;
   cursor: pointer; }
   a:hover {
-    color: #fae5e5;
+    color: #BA9542;
     text-decoration: underline; }
 
 a.delete-all i {
@@ -4294,15 +4294,15 @@ ul, ol {
     display: none;
     float: right; }
   .item-list li:hover {
-    color: #a33024;
-    background: #fae5e5;
+    color: #BA9542;
+    background: #BA9542;
     transition: all .3s ease-out;
     cursor: pointer; }
     .item-list li:hover .delete {
       display: inline;
-      color: #a33024; }
+      color: #BA9542; }
       .item-list li:hover .delete:hover {
-        color: #602a25; }
+        color: #BA9542; }
 
 .rolling-view-container {
   position: relative;
@@ -4332,7 +4332,7 @@ input[type="text"], .btn {
   padding: 8px 10px;
   font-size: .9em;
   margin: 0;
-  background: #fae5e5;
+  background: #BA9542;
   border: 0;
   color: #602a25;
   outline: none; }
@@ -4351,26 +4351,26 @@ input[type="checkbox"] {
   float: left;
   margin: 1px 5px 0 0; }
   input[type="checkbox"] + span {
-    color: #a33024; }
+    color: #BA9542; }
     input[type="checkbox"] + span:hover {
-      color: #fae5e5; }
+      color: #BA9542; }
 
 .btn {
   padding: 8px 15px; }
 
 .primary-btn {
-  color: #fae5e5;
-  background: #a33024; }
+  color: #FFFFFF;
+  background: #BA9542; }
   .primary-btn:hover {
-    background: #602a25; }
+    background: #BA9542; }
 
 .positive-btn {
-  color: #fae5e5;
-  background: #78a33c; }
+  color: #FFFFFF;
+  background: #BA9542; }
   .positive-btn:hover {
-    background: #50922d; }
+    background: #BA9542; }
   .positive-btn:focus {
-    background: #407424; }
+    background: #BA9542; }
 
 .btn-set {
   margin: 20px 0; }
@@ -4379,10 +4379,10 @@ input[type="checkbox"] {
 
 .btn-start {
   transition: backgrund .5s ease-out, box-shadow .5 ease-out;
-  box-shadow: 0 1px 10px 0 #407424;
-  text-shadow: 0 1px 3px #407424; }
+  box-shadow: 0 1px 10px 0 #BA9542;
+  text-shadow: 0 1px 3px #BA9542; }
   .btn-start:hover {
-    box-shadow: 0 1px 3px 0 #78a33c; }
+    box-shadow: 0 1px 3px 0 #BA9542; }
   .btn-start .fa, .btn-start .text {
     transition: all .5s; }
 
@@ -4410,7 +4410,7 @@ input[type="checkbox"] {
     bottom: -4px;
     right: 10px; }
   .tooltip span.text {
-    color: #fae5e5;
+    color: #BA9542;
     font-size: 0.667em; }
 
 .logo {
@@ -4439,21 +4439,21 @@ input[type="checkbox"] {
   width: 100%; }
 
 #mask-top {
-  background: -moz-linear-gradient(top, rgba(40, 84, 0, 0.7) 90%, rgba(40, 84, 0, 0) 100%);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.7) 90%, rgba(255, 255, 255, 0) 100%);
   /* FF3.6+ */
-  background: -webkit-linear-gradient(top, rgba(40, 84, 0, 0.7) 90%, rgba(40, 84, 0, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 90%, rgba(255, 255, 255, 0) 100%);
   /* Chrome10+,Safari5.1+ */
-  background: linear-gradient(to bottom, rgba(40, 84, 0, 0.7) 90%, rgba(40, 84, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 90%, rgba(255, 255, 255, 0) 100%);
   /* W3C */
   top: 0;
   left: 0; }
 
 #mask-bottom {
-  background: -moz-linear-gradient(top, rgba(40, 84, 0, 0) 0%, rgba(40, 84, 0, 0.7) 15%);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 15%);
   /* FF3.6+ */
-  background: -webkit-linear-gradient(top, rgba(40, 84, 0, 0) 0%, rgba(40, 84, 0, 0.7) 15%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 15%);
   /* Chrome10+,Safari5.1+ */
-  background: linear-gradient(to bottom, rgba(40, 84, 0, 0) 0%, rgba(40, 84, 0, 0.7) 15%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 15%);
   /* W3C */
   height: 100px;
   top: 0;
@@ -4474,5 +4474,7 @@ input[type="checkbox"] {
 
   .btn-start {
     margin-left: 30px; } }
+button {
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */

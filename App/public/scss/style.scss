@@ -11,17 +11,20 @@ $page-background-image: url('/images/LuckyDraw.png');
 
 // $page-background-mask: rgba(215, 68, 72, 0.7);
 // $page-background-mask-end: rgba(215, 68, 72, 0);
-$page-background-mask: rgba(40, 84, 0, 0.7);
-$page-background-mask-end: rgba(40, 84, 0, 0);
+$page-background-mask: rgba(255, 255, 255, 0.7);
+$page-background-mask-end: rgba(255, 255, 255, 0);
 
 $tooltip-background-color: #602a25;
-$primary-btn-background: #a33024;
-$primary-btn-hover-background: #602a25;
-$positive-btn-background: #78a33c;
-$positive-btn-hover-background: #50922d;
-$positive-btn-focus-background: #407424;
+
+$primary-btn-background: #BA9542;
+$primary-btn-hover-background: #BA9542;
+$positive-btn-background: #BA9542;
+
+$positive-btn-hover-background: #BA9542;
+$positive-btn-focus-background: #BA9542;
   //Font color
-$primary-color: #fae5e5;
+$primary-color: #BA9542;
+$button-text-color: #FFFFFF;
 $form-input-color: #333333;
 $primary-radius: 4px;
 body{
@@ -177,14 +180,14 @@ input[type="checkbox"]{
   padding:8px 15px;
 }
 .primary-btn{
-  color:$primary-color;
+  color:$button-text-color;
   background: $primary-btn-background;
   &:hover{
     background: $primary-btn-hover-background;
   }
 }
 .positive-btn{
-  color:$primary-color;
+  color:$button-text-color;
   background: $positive-btn-background;
   &:hover{
     background: $positive-btn-hover-background;
@@ -318,4 +321,8 @@ input[type="checkbox"]{
   .btn-start{
     margin-left: 30px;
   }
+}
+
+button{
+  color: $button-text-color;
 }
