@@ -6,7 +6,6 @@
   var machine = new Machine(function(poorMan) {
     var rolling_times = 300;
     var delay = 10;
-    var slow_down_since = rolling_times - 25;
 
     // TODO convert these to React style
     $('.main-container').removeClass('show animated fadeOutUp');
@@ -34,6 +33,7 @@
       start_value += itemsTotal;
       target_value += itemsTotal;
     }
+    var slow_down_since = target_value - 20;
 
     // console.log('start value: ', start_value, ', matched: ', idMatched, 'poor man: ', poorMan);
 
@@ -86,6 +86,9 @@
 
       // Slow down incrementally
       if(counter > slow_down_since) delay += 1;
+      console.log("slow down since: ", slow_down_since);
+      console.log("current counter: ", counter);
+      console.log("target value: ", target_value);
     }
     loopAndLoop(start_value);
   });
