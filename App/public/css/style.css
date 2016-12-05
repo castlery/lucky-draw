@@ -4259,7 +4259,7 @@ h2 {
   margin: 20px 0 0 0; }
 
 a {
-  color: #c89c5d;
+  color: #4c9e06;
   text-decoration: none;
   cursor: pointer; }
   a:hover {
@@ -4294,15 +4294,15 @@ ul, ol {
     display: none;
     float: right; }
   .item-list li:hover {
-    color: #c89c5d;
+    color: #4c9e06;
     background: white;
     transition: all .3s ease-out;
     cursor: pointer; }
     .item-list li:hover .delete {
       display: inline;
-      color: #c89c5d; }
+      color: #4c9e06; }
       .item-list li:hover .delete:hover {
-        color: #c89c5d; }
+        color: #4c9e06; }
 
 .rolling-view-container {
   position: relative;
@@ -4351,7 +4351,7 @@ input[type="checkbox"] {
   float: left;
   margin: 1px 5px 0 0; }
   input[type="checkbox"] + span {
-    color: #c89c5d; }
+    color: #4c9e06; }
     input[type="checkbox"] + span:hover {
       color: white; }
 
@@ -4360,17 +4360,17 @@ input[type="checkbox"] {
 
 .primary-btn {
   color: #FFFFFF;
-  background: #c89c5d; }
+  background: #4c9e06; }
   .primary-btn:hover {
-    background: #c89c5d; }
+    background: #4c9e06; }
 
 .positive-btn {
   color: #FFFFFF;
-  background: #c89c5d; }
+  background: #4c9e06; }
   .positive-btn:hover {
-    background: #c89c5d; }
+    background: #4c9e06; }
   .positive-btn:focus {
-    background: #c89c5d; }
+    background: #4c9e06; }
 
 .btn-set {
   margin: 20px 0; }
@@ -4379,10 +4379,10 @@ input[type="checkbox"] {
 
 .btn-start {
   transition: backgrund .5s ease-out, box-shadow .5 ease-out;
-  box-shadow: 0 1px 10px 0 #c89c5d;
-  text-shadow: 0 1px 3px #c89c5d; }
+  box-shadow: 0 1px 10px 0 #4c9e06;
+  text-shadow: 0 1px 3px #4c9e06; }
   .btn-start:hover {
-    box-shadow: 0 1px 3px 0 #c89c5d; }
+    box-shadow: 0 1px 3px 0 #4c9e06; }
   .btn-start .fa, .btn-start .text {
     transition: all .5s; }
 
