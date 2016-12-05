@@ -4239,7 +4239,7 @@ body {
   line-height: 1;
   margin: 0;
   padding: 0;
-  color: #BA9542;
+  color: white;
   overflow-x: hidden; }
 
 .wrapper {
@@ -4259,11 +4259,11 @@ h2 {
   margin: 20px 0 0 0; }
 
 a {
-  color: #BA9542;
+  color: #c89c5d;
   text-decoration: none;
   cursor: pointer; }
   a:hover {
-    color: #BA9542;
+    color: white;
     text-decoration: underline; }
 
 a.delete-all i {
@@ -4294,15 +4294,15 @@ ul, ol {
     display: none;
     float: right; }
   .item-list li:hover {
-    color: #BA9542;
-    background: #BA9542;
+    color: #c89c5d;
+    background: white;
     transition: all .3s ease-out;
     cursor: pointer; }
     .item-list li:hover .delete {
       display: inline;
-      color: #BA9542; }
+      color: #c89c5d; }
       .item-list li:hover .delete:hover {
-        color: #BA9542; }
+        color: #c89c5d; }
 
 .rolling-view-container {
   position: relative;
@@ -4332,7 +4332,7 @@ input[type="text"], .btn {
   padding: 8px 10px;
   font-size: .9em;
   margin: 0;
-  background: #BA9542;
+  background: white;
   border: 0;
   color: #602a25;
   outline: none; }
@@ -4351,26 +4351,26 @@ input[type="checkbox"] {
   float: left;
   margin: 1px 5px 0 0; }
   input[type="checkbox"] + span {
-    color: #BA9542; }
+    color: #c89c5d; }
     input[type="checkbox"] + span:hover {
-      color: #BA9542; }
+      color: white; }
 
 .btn {
   padding: 8px 15px; }
 
 .primary-btn {
   color: #FFFFFF;
-  background: #BA9542; }
+  background: #c89c5d; }
   .primary-btn:hover {
-    background: #BA9542; }
+    background: #c89c5d; }
 
 .positive-btn {
   color: #FFFFFF;
-  background: #BA9542; }
+  background: #c89c5d; }
   .positive-btn:hover {
-    background: #BA9542; }
+    background: #c89c5d; }
   .positive-btn:focus {
-    background: #BA9542; }
+    background: #c89c5d; }
 
 .btn-set {
   margin: 20px 0; }
@@ -4379,10 +4379,10 @@ input[type="checkbox"] {
 
 .btn-start {
   transition: backgrund .5s ease-out, box-shadow .5 ease-out;
-  box-shadow: 0 1px 10px 0 #BA9542;
-  text-shadow: 0 1px 3px #BA9542; }
+  box-shadow: 0 1px 10px 0 #c89c5d;
+  text-shadow: 0 1px 3px #c89c5d; }
   .btn-start:hover {
-    box-shadow: 0 1px 3px 0 #BA9542; }
+    box-shadow: 0 1px 3px 0 #c89c5d; }
   .btn-start .fa, .btn-start .text {
     transition: all .5s; }
 
@@ -4410,7 +4410,7 @@ input[type="checkbox"] {
     bottom: -4px;
     right: 10px; }
   .tooltip span.text {
-    color: #BA9542;
+    color: white;
     font-size: 0.667em; }
 
 .logo {
